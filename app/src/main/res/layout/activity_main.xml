@@ -39,6 +39,7 @@
         android:layout_centerHorizontal="true"
         android:orientation="horizontal">
 
+
         <Button
             android:id="@+id/btnEmail"
             android:layout_width="100dp"
