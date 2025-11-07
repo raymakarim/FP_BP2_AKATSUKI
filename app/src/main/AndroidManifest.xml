@@ -12,18 +12,24 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.BayarSekolahApp"
         tools:targetApi="31">
+
         <activity
-            android:name=".NomerLogin"
-            android:exported="false" />
-        <activity
-            android:name=".splash_screen"
-            android:exported="true">
+            android:name=".DashboardActivity"
+            android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".NomerLogin"
+            android:exported="false" />
+
+        <activity
+            android:name=".splash_screen"
+            android:exported="false" />
+
         <activity
             android:name=".OnboardingActivity"
             android:exported="false" />

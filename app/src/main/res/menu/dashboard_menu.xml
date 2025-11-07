@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/menu_notifications"
+        android:icon="@drawable/notification_dashboard"
+        android:title="Notifikasi"
+        android:contentDescription="Notifikasi"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/menu_profile"
+        android:icon="@drawable/person_temp"
+        android:title="Profil"
+        android:contentDescription="Profil Akun"
+        app:showAsAction="ifRoom" />
+
+</menu>
