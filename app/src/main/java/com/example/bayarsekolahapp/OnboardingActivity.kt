@@ -49,7 +49,7 @@ class OnboardingActivity : AppCompatActivity() {
             GuidePageData(
                 title = "Satu Aplikasi",
                 description = "untuk semua kebutuhan sekolah",
-                iconResId = R.drawable.ic_guide_book // <-- Ganti nama ikonmu
+                iconResId = R.drawable.ic_guide_card // <-- Ganti nama ikonmu
             ),
             GuidePageData(
                 title = "Project P",
